@@ -1,14 +1,14 @@
-package com.jamesshore.finances;
+//package com.jamesshore.finances;
 
 
-import org.junit.Test;
+//import org.junit.Test;
 
-import static org.junit.Assert.*;
+//import static org.junit.Assert.*;
 
 
 public class _SavingsAccountYearTest {
 	
-
+/*
 	@Test
 	public void startingBalanceMatchesConstructor(){
 		SavingsAccountYear account = newAccount();
@@ -88,19 +88,17 @@ public class _SavingsAccountYearTest {
 
 	@Test
 	public void capitalGainsTaxIncurred_needsToCoverCapitalGainsWithdrawn_AND_theAdditionalCapitalGainsWithdrawnToPayTheCapitalGainsTax() {
-		/*
-		Example of concept:
-		1000 withdrawn
-		10% tax rate
-      1000 * 0.10 = 100
-      100  * 0.10 = 10
-      10   * 0.10 = 1
-      ...
-      100 + 10 + 1 extra is needed to withdraw and pay tax
-      ... Using this formula:
-      1000/(inverse of rate) - 1000 = 111
-        1000/(1 - 0.10) - 1000 = 111 (actually 111.1111...)
-		 */
+//		Example of concept:
+//		1000 withdrawn
+//		10% tax rate
+//      1000 * 0.10 = 100
+//      100  * 0.10 = 10
+//      10   * 0.10 = 1
+//      ...
+//      100 + 10 + 1 extra is needed to withdraw and pay tax
+//      ... Using this formula:
+//      1000/(inverse of rate) - 1000 = 111
+//        1000/(1 - 0.10) - 1000 = 111 (actually 111.1111...)
 		SavingsAccountYear year = new SavingsAccountYear(10000, 3000, 10);
 		year.withdraw(5000);
 		assertEquals(2000, year.capitalGainsWithdrawn());
@@ -135,5 +133,5 @@ public class _SavingsAccountYearTest {
 		SavingsAccountYear account = new SavingsAccountYear(10000, 10000,10);
 		return account;
 	}
-
+*/
 }
